@@ -1,0 +1,495 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.wrapper-grid {
+    display: grid;
+    justify-content: center;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr;
+    margin: 5rem;
+    padding: 0 20px;
+}
+
+.button-container {
+    margin: 5%;
+    padding: 10px 10px;
+}
+
+.big {
+    background-color: white;
+    color: black;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border-radius: 10px;
+    transition: box-shadow .5s ease, transform .2s ease;
+    will-change: transform;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    height: 80px;
+    width: 200px;
+    width: 23%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.carousel {
+    width: 40%;
+    height: 40%;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+.navbar-custom {
+    height: 120px;
+    font-size: 25px;
+    margin: auto;
+}
+
+
+/* TRYING DARK MODE */
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: #2d72da;
+}
+
+.symptom-list,
+.sp-list,
+.ab_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.symptoms {
+    width: 100%;
+    padding: 0px;
+}
+
+.corona_right {
+    width: 100%;
+    padding: 0px;
+}
+
+.symptom-list,
+.sp-list {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.about_corona {
+    padding: 20px 0;
+}
+
+.symptom-head {
+    margin-right: 45px;
+}
+
+.spread {
+    padding-bottom: 20px;
+}
+
+.corona_right h3 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.symptoms {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.symptoms h3 {
+    font-size: 1.5em;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.symptoms h3 small {
+    display: block;
+    font-size: 0.750em;
+    color: #EAA4A4;
+}
+
+.symptoms h3 strong {
+    display: block;
+    font-weight: 700;
+    padding: 5px 0 0;
+}
+
+.symptom-list,
+.sp-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.symptom-list li {
+    width: 48%;
+    background: #fff;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.sp-list li,
+.symptom-list li {
+    width: 23%;
+    background: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.symptom-list li span,
+.sp-list li span {
+    display: block;
+    margin-top: 5px;
+    color: #0a0a0a;
+    font-weight: 700;
+    width: 100%;
+}
+
+.sp-list li span {
+    font-size: 0.929em;
+}
+
+.symptom-head {
+    margin-right: 45px;
+}
+
+.about_corona {
+    margin: 30px 0 30px;
+    background: #b12422;
+    padding: 80px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+.video-container .box {
+    position: relative;
+    width: 450px;
+    height: 320px;
+    background: #000;
+    left: 250px;
+}
+
+.video-container .box .videobx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container .box .videobx iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-container .box .contentbx {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    right: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: transform 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+}
+
+.video-container .box:hover .contentbx {
+    transition: transform 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.video-container .box .contentbx .content {
+    position: relative;
+    padding: 20px 60px;
+    opacity: 0;
+}
+
+.video-container .box:hover .contentbx .content {
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.video-container .box .contentbx .content h2 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.video-container .box .contentbx .content p {
+    color: #fff;
+    font-weight: 300;
+}
+
+.helpline-container {
+    background: #2d72da;
+    color: #000;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fcontainer {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.frow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #b12422;
+    padding: 40px 0px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0px 50px 0px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+/*responsive*/
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+section {
+    min-height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.8rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg {
+    transform: rotate(180deg);
+}
+
+svg {
+    transition: tranform 0.5s ease-in;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opaity: 1;
+        transform: translateY(0px);
+    }
+}
